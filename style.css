@@ -132,7 +132,7 @@ border-radius: 0 0 3.2rem 3.2rem;
         grid-template-columns: 1fr 1fr;
         width: 736px;
         background: var(--write);
-        border-radius: 3.2rem 0 0 3.2rem;
+        border-radius: 3.2rem ;
     }
     .resultados{
         padding-block: 3.8rem;
@@ -162,9 +162,22 @@ border-radius: 0 0 3.2rem 3.2rem;
     }
     .resumo{
         padding: 3.8rem 4rem;
+        border-radius: 3.2rem;
     }
     .resumo h2{
 font-size: 2.4rem;
 margin-bottom: 3rem;
+    }
+    .resumo div {
+        font-size: 1.8rem;
+    }
+    .resumo bottom {
+        margin-top: 2.4rem;
+       
+    }
+    .resumo bottom:hover {
+        background: var(--resultado-bg);
+        cursor: pointer;
+
     }
 }
